@@ -1,0 +1,106 @@
+﻿  CMImgProc.cpp
+  cfan.cpp
+FaceAlignment\src\cfan.cpp(170): warning C4305: “初始化”: 从“double”到“float”截断
+FaceAlignment\src\cfan.cpp(171): warning C4305: “初始化”: 从“double”到“float”截断
+FaceAlignment\src\cfan.cpp(174): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceAlignment\src\cfan.cpp(175): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceAlignment\src\cfan.cpp(176): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceAlignment\src\cfan.cpp(177): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceAlignment\src\cfan.cpp(218): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceAlignment\src\cfan.cpp(251): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceAlignment\src\cfan.cpp(294): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceAlignment\src\cfan.cpp(327): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceAlignment\src\cfan.cpp(398): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceAlignment\src\cfan.cpp(399): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  face_alignment.cpp
+  sift.cpp
+  lab_boosted_classifier.cpp
+  mlp.cpp
+  surf_mlp.cpp
+  face_detection.cpp
+  lab_feature_map.cpp
+  surf_feature_map.cpp
+  fust.cpp
+  lab_boost_model_reader.cpp
+  surf_mlp_model_reader.cpp
+  image_pyramid.cpp
+  nms.cpp
+  bias_adder_net.cpp
+  blob.cpp
+FaceIdentification\src\blob.cpp(165): warning C4244: “=”: 从“const float”转换到“unsigned char”，可能丢失数据
+  bn_net.cpp
+FaceIdentification\src\bn_net.cpp(41): warning C4305: “=”: 从“double”到“float”截断
+  common_net.cpp
+FaceIdentification\src\common_net.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FaceIdentification\src\common_net.cpp(55): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FaceIdentification\src\common_net.cpp(56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FaceIdentification\src\common_net.cpp(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  conv_net.cpp
+  正在编译...
+  eltwise_net.cpp
+  inner_product_net.cpp
+  log.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(114): warning C4005: “ERROR”: 宏重定义
+          D:\faceJniDll\FaceIdentification\include\log.h(29) : 参见“ERROR”的前一个定义
+  math_functions.cpp
+  max_pooling_net.cpp
+  net.cpp
+  pad_net.cpp
+  spatial_transform_net.cpp
+D:\faceJniDll\FaceIdentification\include\spatial_transform_net.h(28): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(93): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(116): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(122): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(131): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(151): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(174): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(180): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+FaceIdentification\src\spatial_transform_net.cpp(189): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  tform_maker_net.cpp
+FaceIdentification\src\tform_maker_net.cpp(14): warning C4305: “初始化”: 从“double”到“const float”截断
+FaceIdentification\src\tform_maker_net.cpp(64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\tform_maker_net.cpp(65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\tform_maker_net.cpp(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\tform_maker_net.cpp(67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\src\tform_maker_net.cpp(68): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  aligner.cpp
+D:\faceJniDll\FaceIdentification\include\spatial_transform_net.h(28): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\tools\aligner.cpp(27): warning C4305: “初始化”: 从“double”到“float”截断
+FaceIdentification\tools\aligner.cpp(75): warning C4305: “初始化”: 从“double”到“float”截断
+FaceIdentification\tools\aligner.cpp(77): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+FaceIdentification\tools\aligner.cpp(78): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+  face_identification.cpp
+D:\faceJniDll\FaceIdentification\include\face_identification.h(53): warning C4010: 单行注释包含行继续符
+FaceIdentification\tools\face_identification.cpp(58): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+FaceIdentification\tools\face_identification.cpp(59): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+FaceIdentification\tools\face_identification.cpp(81): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+FaceIdentification\tools\face_identification.cpp(82): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+  NativeDemo.cpp
+d:\facejnidll\FaceIdentification/include/Face_identification.h(53): warning C4010: 单行注释包含行继续符
+NativeDemo.cpp(179): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(337): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+NativeDemo.cpp(338): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+NativeDemo.cpp(339): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(340): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(358): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(360): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(362): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(367): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(373): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(375): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(377): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(383): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(389): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(392): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(395): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+NativeDemo.cpp(425): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+          NativeDemo.cpp(414) : 忽略“i”的定义
+          NativeDemo.cpp(310) : 使用“i”的定义
+     正在创建库 D:\faceJniDll\x64\Release\faceJniDll.lib 和对象 D:\faceJniDll\x64\Release\faceJniDll.exp
+  正在生成代码
+d:\facejnidll\faceidentification\src\spatial_transform_net.cpp(145): warning C4715: “SpatialTransformNet::Sampling”: 不是所有的控件路径都返回值
+d:\facejnidll\faceidentification\src\spatial_transform_net.cpp(203): warning C4715: “SpatialTransformNet::Sampling”: 不是所有的控件路径都返回值
+  已完成代码的生成
+  faceJniDll.vcxproj -> D:\faceJniDll\x64\Release\faceJniDll.dll

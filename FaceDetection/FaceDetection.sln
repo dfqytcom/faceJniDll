@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceDetection", "FaceDetection.vcxproj", "{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceDetectionTest", "FaceDetectionTest.vcxproj", "{212028EB-5310-4CD0-A11D-AE8201234E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Debug|Win32.Build.0 = Debug|Win32
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Debug|x64.ActiveCfg = Debug|x64
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Debug|x64.Build.0 = Debug|x64
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Release|Win32.ActiveCfg = Release|Win32
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Release|Win32.Build.0 = Release|Win32
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Release|x64.ActiveCfg = Release|x64
+		{8177B2C3-52A2-4203-8D69-8BCEF8C12DD8}.Release|x64.Build.0 = Release|x64
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Debug|Win32.Build.0 = Debug|Win32
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Debug|x64.ActiveCfg = Debug|x64
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Debug|x64.Build.0 = Debug|x64
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Release|Win32.ActiveCfg = Release|Win32
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Release|Win32.Build.0 = Release|Win32
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Release|x64.ActiveCfg = Release|x64
+		{212028EB-5310-4CD0-A11D-AE8201234E04}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

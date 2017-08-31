@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E12B246E-D929-496C-80D9-F38ED4F2C912}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NativeDemo</RootNamespace>
+    <ProjectName>faceJniDll</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\faceJNIDLL\faceJNIDLL\jni.h;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceAlignment;D:\faceJNIDLL\faceJNIDLL;D:\android\Java\jdk1.7.0_79\include;D:\faceJNIDLL\faceJNIDLL\FaceIdentification\include;D:\faceJNIDLL\faceJNIDLL\FaceAlignment\include;D:\faceJNIDLL\faceJNIDLL\FaceDetection\include;D:\android\Java\jdk1.7.0_79\include\win32;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\jni.h;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceAlignment;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL;D:\android\Java\jdk1.7.0_79\include;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceIdentification\include;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceAlignment\include;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceDetection\include;D:\android\Java\jdk1.7.0_79\include\win32;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\jni.h;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceAlignment;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL;D:\android\Java\jdk1.7.0_79\include;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceIdentification\include;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceAlignment\include;D:\vc_projects\SeetaFaceJNIDLL\SeetaFaceJNIDLL\FaceDetection\include;D:\android\Java\jdk1.7.0_79\include\win32;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\faceJniDll\jni.h;D:\faceJniDll\FaceAlignment;D:\faceJniDll;D:\faceJniDll\FaceIdentification\include;D:\faceJniDll\FaceAlignment\include;D:\faceJniDll\FaceDetection\include;C:\Program Files\Java\jdk1.8.0_121\include;C:\Program Files\Java\jdk1.8.0_121\include\win32;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;NATIVEDEMO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_AFXEXT;SeetaFace_Exports;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;NATIVEDEMO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;NATIVEDEMO_EXPORTS;USE_OPENMP;USE_SSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk1.8.0_121\include\win32;C:\Program Files\Java\jdk1.8.0_121\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CMImgProc.h" />
+    <ClInclude Include="FaceAlignment\include\cfan.h" />
+    <ClInclude Include="FaceAlignment\include\common.h" />
+    <ClInclude Include="FaceAlignment\include\face_alignment.h" />
+    <ClInclude Include="jni.h\jni.h" />
+    <ClInclude Include="jni.h\jni_md.h" />
+    <ClInclude Include="sift.h" />
+    <ClInclude Include="FaceDetection\include\classifier.h" />
+    <ClInclude Include="FaceDetection\include\classifier\lab_boosted_classifier.h" />
+    <ClInclude Include="FaceDetection\include\classifier\mlp.h" />
+    <ClInclude Include="FaceDetection\include\classifier\surf_mlp.h" />
+    <ClInclude Include="FaceDetection\include\common.h" />
+    <ClInclude Include="FaceDetection\include\detector.h" />
+    <ClInclude Include="FaceDetection\include\face_detection.h" />
+    <ClInclude Include="FaceDetection\include\feature_map.h" />
+    <ClInclude Include="FaceDetection\include\feat\lab_feature_map.h" />
+    <ClInclude Include="FaceDetection\include\feat\surf_feature_map.h" />
+    <ClInclude Include="FaceDetection\include\fust.h" />
+    <ClInclude Include="FaceDetection\include\io\lab_boost_model_reader.h" />
+    <ClInclude Include="FaceDetection\include\io\surf_mlp_model_reader.h" />
+    <ClInclude Include="FaceDetection\include\model_reader.h" />
+    <ClInclude Include="FaceDetection\include\util\image_pyramid.h" />
+    <ClInclude Include="FaceDetection\include\util\math_func.h" />
+    <ClInclude Include="FaceDetection\include\util\nms.h" />
+    <ClInclude Include="FaceIdentification\include\aligner.h" />
+    <ClInclude Include="FaceIdentification\include\bias_adder_net.h" />
+    <ClInclude Include="FaceIdentification\include\blob.h" />
+    <ClInclude Include="FaceIdentification\include\bn_net.h" />
+    <ClInclude Include="FaceIdentification\include\cfan.h" />
+    <ClInclude Include="FaceIdentification\include\common.h" />
+    <ClInclude Include="FaceIdentification\include\common_net.h" />
+    <ClInclude Include="FaceIdentification\include\conv_net.h" />
+    <ClInclude Include="FaceIdentification\include\eltwise_net.h" />
+    <ClInclude Include="FaceIdentification\include\face_identification.h" />
+    <ClInclude Include="FaceIdentification\include\hyper_param.h" />
+    <ClInclude Include="FaceIdentification\include\inner_product_net.h" />
+    <ClInclude Include="FaceIdentification\include\log.h" />
+    <ClInclude Include="FaceIdentification\include\math_functions.h" />
+    <ClInclude Include="FaceIdentification\include\max_pooling_net.h" />
+    <ClInclude Include="FaceIdentification\include\net.h" />
+    <ClInclude Include="FaceIdentification\include\net_factory.h" />
+    <ClInclude Include="FaceIdentification\include\pad_net.h" />
+    <ClInclude Include="FaceIdentification\include\recognizer.h" />
+    <ClInclude Include="FaceIdentification\include\spatial_transform_net.h" />
+    <ClInclude Include="FaceIdentification\include\tform_maker_net.h" />
+    <ClInclude Include="FaceIdentification\include\viplnet.h" />
+    <ClInclude Include="NativeDemo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMImgProc.cpp" />
+    <ClCompile Include="FaceAlignment\src\cfan.cpp" />
+    <ClCompile Include="FaceAlignment\src\face_alignment.cpp" />
+    <ClCompile Include="sift.cpp" />
+    <ClCompile Include="FaceDetection\src\classifier\lab_boosted_classifier.cpp" />
+    <ClCompile Include="FaceDetection\src\classifier\mlp.cpp" />
+    <ClCompile Include="FaceDetection\src\classifier\surf_mlp.cpp" />
+    <ClCompile Include="FaceDetection\src\face_detection.cpp" />
+    <ClCompile Include="FaceDetection\src\feat\lab_feature_map.cpp" />
+    <ClCompile Include="FaceDetection\src\feat\surf_feature_map.cpp" />
+    <ClCompile Include="FaceDetection\src\fust.cpp" />
+    <ClCompile Include="FaceDetection\src\io\lab_boost_model_reader.cpp" />
+    <ClCompile Include="FaceDetection\src\io\surf_mlp_model_reader.cpp" />
+    <ClCompile Include="FaceDetection\src\util\image_pyramid.cpp" />
+    <ClCompile Include="FaceDetection\src\util\nms.cpp" />
+    <ClCompile Include="FaceIdentification\src\bias_adder_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\blob.cpp" />
+    <ClCompile Include="FaceIdentification\src\bn_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\common_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\conv_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\eltwise_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\inner_product_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\log.cpp" />
+    <ClCompile Include="FaceIdentification\src\math_functions.cpp" />
+    <ClCompile Include="FaceIdentification\src\max_pooling_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\net.cpp" />
+    <ClCompile Include="FaceIdentification\src\pad_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\spatial_transform_net.cpp" />
+    <ClCompile Include="FaceIdentification\src\tform_maker_net.cpp" />
+    <ClCompile Include="FaceIdentification\tools\aligner.cpp" />
+    <ClCompile Include="FaceIdentification\tools\face_identification.cpp" />
+    <ClCompile Include="NativeDemo.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
